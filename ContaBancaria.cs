@@ -43,7 +43,7 @@ namespace Saldo
             Console.Write("Entre um valor para saque: ");
             quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             conta.Saque(quantia);
-            Console.WriteLine("Dadoss da conta atualizados:");
+            Console.WriteLine("Dados da conta atualizados:");
             Console.WriteLine(conta);
             
         }
