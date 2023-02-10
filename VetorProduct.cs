@@ -8,7 +8,7 @@ namespace Resolvendo2
         static void Main(string[] args)
         {
 
-            Console.Write("Digite a quantidade de produtos: ");
+            Console.Write("Digite a quantidade de produtos:  ");
             int n = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Agora digite o nome e o preço dos produtos: ");
