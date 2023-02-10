@@ -10,7 +10,7 @@ namespace Resolvendo2
 
             Estudante[] vect = new Estudante[10];
 
-            Console.Write("How many room will be retend? ");
+            Console.Write("How many room will be retend?: ");
             int n = int.Parse(Console.ReadLine());
 
             for (int i = 0;i <n; i++)
